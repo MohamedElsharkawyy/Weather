@@ -10,7 +10,7 @@ searchInput.addEventListener('input', function(){
 
 
 async function getData(key) {
-  let data = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=6cde038a90374d8095a235136233112&q=${key}&days=3`)
+  let data = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=6cde038a90374d8095a235136233112&q=${key}&days=3`)
   let res = await data.json()
   display(res)
 }
