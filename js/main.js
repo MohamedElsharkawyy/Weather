@@ -67,9 +67,6 @@ function display(weather) {
                     <div class="body">
                       <img src=${weather.forecast.forecastday[1].day.condition.icon} alt="">
                       <h4>${weather.forecast.forecastday[1].day.maxtemp_c}<sup>o</sup>C</h4>
-                      <small>${
-                        weather.forecast.forecastday[1].day.mintemp_c
-                      }<sup>o</sup></small>
                       <p>${weather.forecast.forecastday[1].day.condition.text}</p>
                     </div>
                   </div>
@@ -86,9 +83,6 @@ function display(weather) {
                     <div class="body">
                       <img src=${weather.forecast.forecastday[2].day.condition.icon} alt="">
                       <h4>${weather.forecast.forecastday[2].day.maxtemp_c}<sup>o</sup>C</h4>
-                      <small>${
-                        weather.forecast.forecastday[2].day.mintemp_c
-                      }<sup>o</sup></small>
                       <p>${weather.forecast.forecastday[2].day.condition.text}</p>
                     </div>
                   </div>
